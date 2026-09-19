@@ -1,0 +1,1 @@
+{"name":"c4-paladins-draft-server","version":"1.0.0","description":"Online draft server for C4 Paladins Draft Trainer","author":"CH4SO","license":"MIT","main":"server.js","scripts":{"start":"node server.js"},"dependencies":{"socket.io":"^4.8.3"},"engines":{"node":">=18"}}
