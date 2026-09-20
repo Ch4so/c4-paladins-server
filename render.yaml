@@ -1,0 +1,10 @@
+# Render Blueprint — lets Render auto-configure this web service.
+# (You can also configure these same settings by hand in the Render dashboard.)
+services:
+  - type: web
+    name: c4-paladins-draft-server
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
